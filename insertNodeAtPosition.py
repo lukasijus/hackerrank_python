@@ -1,3 +1,8 @@
+class SinglyLinkedListNode(object):
+    def __init__(self, data=None, next_node=None):
+       self.data = data
+       self.next = next_node
+
 def insertNodeAtPosition(head, data, position):
     node = head
     if position == 0:
