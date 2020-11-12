@@ -18,3 +18,9 @@ def printLinkedList(head):
     while node:
         print(node.data)
         node = node.next 
+
+def insertNodeAtHead(head, data):
+    node = SinglyLinkedListNode(data)
+    if head:
+        node.next = head
+    return node
