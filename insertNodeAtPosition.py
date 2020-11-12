@@ -12,3 +12,9 @@ def insertNodeAtPosition(head, data, position):
     newNode.next = node.next
     node.next = newNode
     return head
+
+def printLinkedList(head):
+    node = head
+    while node:
+        print(node.data)
+        node = node.next 
